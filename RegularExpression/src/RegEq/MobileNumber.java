@@ -7,7 +7,7 @@ public class MobileNumber {
 
 	public static boolean isValidMobileNumber(String mobNum)
 	{		
-		Pattern p = Pattern.compile("(0|91)?[0-9]{10}$");
+		Pattern p = Pattern.compile("(0|91)?(\\d){10}$");
 		Matcher m = p.matcher(mobNum);
 		return m.matches();
 	}
