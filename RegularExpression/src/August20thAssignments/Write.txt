@@ -1,0 +1,8 @@
+2 
+1 
+3 
+4 
+@ 
+# 
+$ 
+The number of digits and special characters in the given string are 7
