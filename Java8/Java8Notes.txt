@@ -1,0 +1,2 @@
+In java 8 we can use main() method in the interface.
+It will execute normally.
