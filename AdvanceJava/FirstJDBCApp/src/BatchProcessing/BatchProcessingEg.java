@@ -17,6 +17,7 @@ public class BatchProcessingEg {
 			String sql="insert into eg values(1,'A')";
 			
 			Statement st= con.createStatement();
+			
 			st.addBatch(sql);
 			st.addBatch("insert into eg values(2,'B')");
 			st.addBatch("insert into eg values(3,'C')");

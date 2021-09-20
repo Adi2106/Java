@@ -29,14 +29,14 @@ public class BookTableUpdateDelete {
 			System.out.println(con.getClass().getName());
 			System.out.println(st.getClass().getName());
 			System.out.println(rs.getClass().getName());
-//			while(rs.next())
-//			{
-//				System.out.println("____________________________________________________________________________________________________________________________________");
-//				
-//				System.out.println("Book ID : "+rs.getInt(1)+"\t"+"Book Name : "+rs.getString(2)+"\t"+"Book Price : "+rs.getInt(3)+"\t"+"Book Price : "+rs.getString(4));				
-//				
-//				System.out.println("____________________________________________________________________________________________________________________________________");
-//			}
+			while(rs.next())
+			{
+				System.out.println("____________________________________________________________________________________________________________________________________");
+				
+				System.out.println("Book ID : "+rs.getInt(1)+"\t"+"Book Name : "+rs.getString(2)+"\t"+"Book Price : "+rs.getInt(3)+"\t"+"Book Price : "+rs.getString(4));				
+				
+				System.out.println("____________________________________________________________________________________________________________________________________");
+			}
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
